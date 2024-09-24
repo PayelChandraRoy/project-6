@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+header{
+    width: 100%;
+    height:50px;
+    position:fixed;
+    top: 0px;
+    background: rgb(228, 107, 20);
+    z-index:1;
+}
+header .logo{
+    position: absolute;
+    margin-top: 0px;
+    padding-left: 100px;
+}
+header div {
+   float: left;
+   justify-content: space-between;
+   align-items: center;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+  
+}
+header .nav ul{
+    list-style: none;
+    
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 0px;
+}
+header .nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+
+header .nav ul li a:hover{
+    color:#fff;
+}
+
+/* section1 */
+
+.section1{
+    background: #f9f9ff;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 150px;
+}
+.pif1 .pif2{
+    width: 50%;
+}
+.pif1{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.pif2{
+    padding-right: 160px;
+
+}
+.pif2 img{
+    max-width: 102%;
+    height: auto;
+}
+.pif1 h3 {
+    padding-top: 20px;
+    font-weight: normal;
+}
+.pif1 h1{
+    font-size: 50px;
+}
+.pif1 p{
+    color: rgb(89, 55, 14);
+}
+.pif1 input{
+    border-radius: 4px;
+    padding:8px 20px ;
+    background: rgb(228, 107, 20);
+    color: rgb(3, 0, 0);
+    border: 1px solid #8393ff;
+    font-size: 15px;
+}
+.pif1 input:hover{
+    box-shadow:5px 10px 30px rgb(228, 107, 20) ;
+    transition: all 0.5s ease in 0.1s;
+    cursor:grabbing;
+    
+}
+
+/* section2 */
+
+.section2{
+    width: 100%;
+    height: 620x;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+
+}
+.section2 div{
+    width: 60%;
+    margin: 0px auto;
+}
+.section2 img{
+    width: 90%;
+    height: auto;
+}
+.section2 .img2{
+    padding-left: 150px;
+}
+.text2 h3{
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.text2 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.text2 p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 80%;
+}
+.text2 input{
+    border-radius: 4px;
+    padding:9px 12px ;
+    background: rgb(228, 107, 20);
+    color: rgb(3, 0, 0);;
+    border: none;
+    outline: none;
+    font-size: 15px;
+   
+    
+}
+.text2 input:hover{
+    box-shadow:5px 10px 30px rgb(228, 107, 20) ;
+    transition: all 0.5s ease in 0.1s;
+    cursor:grabbing;
+    
+}
+.section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.firsttext h1{
+    font-size: 35px;
+   line-height: 70px;
+}
+.firsttext p{
+    width: 670px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+}
+
+/* service start  */
+.service{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+}
+.ser1, .ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.ser2{
+   padding-top: 30px; 
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 20px;
+    margin: 0 auto;
+}
+.ser1 div:hover, .ser2 div:hover{
+    background: rgb(175, 228, 172);
+    cursor: pointer;
+  
+}
+.service i{
+    font-size: 25px;
+    color: rgb(98, 174, 241);
+   }
+.service i:hover{
+    color: #e85709;
+}
+.service h1{
+    font-size: 20px;
+    color: #e85709;
+    letter-spacing: 2px;
+}
+.service h1:hover{
+    color: rgb(9, 130, 236);
+}
+.service p{
+    font-weight:500;
+    color: rgb(5, 55, 99);
+}
+
+/* service end  */
+
+
+
+.section4{
+    width: 100%;
+    height: 200px;
+    background: rgb(175, 228, 172);;
+    margin: 0 auto;
+    text-align: center;   
+}
+.section4 div{
+    width: 20%;
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    top:80px ;
+    left:108px;
+}
+.section4 h2,p{
+    text-align: center;
+    color: #000000;
+}
+
+/* 
+ Portfolio five start */
+
+ .section5{
+    padding-top: 100px;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center; 
+ }
+ .section5 .text3 h1{
+    font-size: 35px;
+ }
+ 
+ .section5 .text3 p{
+    font-size:14px;
+    line-height: 35px;
+    color: rgb(0, 0, 0);
+ }
+ .section5 .fulldiv{
+    padding-top: 30px;
+ }
+ .section5 .imgg{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto ;
+
+}
+.section5 .imgg h1{
+    font-size: 20px;
+    color:rgb(3, 0, 0.3) ;
+    line-height: 2;
+}
+.section5 .imgg p{
+    color: rgb(0, 0, 0.7);
+   padding-bottom: 25px;
+}
+.section5 figure img:hover{
+    opacity: 0.4;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+/* Portfolio five start */
+
